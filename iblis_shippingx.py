@@ -30,7 +30,7 @@ def alert(url, params):
 
 recipients = ["+265995890344","+265998006237", "+265998276712","+265995316633","+265991456341","+265996131060","+265996963312","+265992513151","+265881714522","+265991239213","+265999453942","+265991450316","+265995246144","+265992182669","+265998555333"]
 
-cluster = get_xi_data('http://10.44.0.52/sites/api/v1/get_single_cluster/30')
+cluster = get_xi_data('http://10.44.0.52/sites/api/v1/get_single_cluster/50')
 
 for site_id in cluster['site']:
     site = get_xi_data('http://10.44.0.52/sites/api/v1/get_single_site/' + str(site_id))
